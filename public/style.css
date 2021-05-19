@@ -1,0 +1,42 @@
+/* adding raleway font to css file */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* styling done for TodoItem.js to make cards */
+
+.todoitem {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 14px 17px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .todoitem:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+
+  /* styling done for addtodo form in AddTodo.js */
+  .addtodoform{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 14px 17px;
+  }
+
+
+
+  /* adding font to navbar */
+  .header{
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+  /* about styling */
+
+  .about{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 14px 17px;
+    font-family: 'Raleway', sans-serif;
+  }
